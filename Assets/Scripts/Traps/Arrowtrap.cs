@@ -1,0 +1,41 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Arrowtrap : MonoBehaviour
+{
+    [SerializeField] private float attackCooldown;
+    [SerializeField] private Transform firePoint;
+    [SerializeField] private GameObject[] arrows;
+    [SerializeField] private AudioClip arrowSound;
+    private float cooldownTimer;
+
+    private void Update()
+    {
+        cooldownTimer += Time.deltaTime;
+        if(cooldownTimer >= attackCooldown)
+        {
+            Attack();
+        }
+
+    }
+
+    private void Attack()
+    {
+        cooldownTimer = 0;
+        SoundManager.instance.PlaySound(arrowSound);
+        arrows[FindArrow()].transform.position = firePoint.position;
+        arrows[FindArrow()].GetComponent<Enemyprojectiles>().ActivateProjectile();
+
+    }
+
+    private int FindArrow()
+    {
+        for (int i = 0; i < arrows.Length; i++)
+        {
+            if (!arrows[i].activeInHierarchy)
+                return i;
+        }
+        return 0;
+    }
+}
