@@ -1,5 +1,8 @@
 # CupofJava
 Szoftverfejlesztés PE 2021/22/2
+
+Adventures of Draco játékszoftver
+
 Dokumentáció:
 1. Futtatáshoz szükséges állományok:
 A program futásához szükséges az összes forrásállomány letöltése ezen github felület Release vagy Main ágáról.
