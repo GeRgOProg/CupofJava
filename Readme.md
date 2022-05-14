@@ -8,7 +8,9 @@ Dokumentáció:
 A program futásához szükséges az összes forrásállomány letöltése ezen github felület Release vagy Main ágáról.
 
 2. Telepítési útmutatás:
+
 Jelen forráskód futtatásához szükséges Unity fejlesztő verzió: 2021.3.0f1 vagy frissebb.
+
 A következőképpen lehet a projektet futtatni Unity fejlesztő segítségével:
   - Unity Hub használata (szükség esetén telepítése)
   - Forrásállományok letöltése
