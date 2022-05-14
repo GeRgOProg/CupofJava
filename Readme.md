@@ -25,7 +25,8 @@ A következőképpen lehet a projektet futtatni Unity fejlesztő segítségével
     
     III. Második pálya (Level2)
     
- 3. Specifikáció:
+ 3. Specifikáció (kivonat):
+ 
  Ezen program egy 2D platformer játékprogram, amelyben egy sárkányt irányítunk a megadott pályák keretein belül.
  A játékprogram célja, hogy eljussunk a pálya kijelölt kezdőpontjából a végpontjába.
  
@@ -52,3 +53,7 @@ A következőképpen lehet a projektet futtatni Unity fejlesztő segítségével
 [Felhasználói_kézikönyv.pdf](https://github.com/GeRgOProg/CupofJava/files/8692920/Felhasznaloi_kezikonyv.pdf)
 
 [Telepítési útmutató.pdf](https://github.com/GeRgOProg/CupofJava/files/8692921/Telepitesi.utmutato.pdf)
+
+[CupofJava_Specifikáció_végleges.pdf](https://github.com/GeRgOProg/CupofJava/files/8692927/CupofJava_Specifikacio_vegleges.pdf)
+
+
